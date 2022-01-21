@@ -4,17 +4,26 @@ html{
 body{
     background-color: #F7F7F7;
 } 
-.basic{
+.basic, .only-buttons, .only-icons{
     width: 36rem;
     height: 46rem;
 }
 .text-over-media{
     width: 36rem;
     height: 40rem;
-    position: relative;
-    bottom: 6rem;
+
 }
 .header{
     width: 37.6rem;
     height: 46.4rem;
+}
+
+.frameset{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.horizontal{
+    width: 36rem;
+    height: 17rem;
 }

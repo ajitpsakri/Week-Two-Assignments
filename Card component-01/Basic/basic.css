@@ -28,7 +28,7 @@ body{
     height: auto;
     width: 100%;
     border-top-right-radius: 0.3rem;
-    border-top-left-radius: 0.3rem;
+    border-top--radius: 0.3rem;
 
 }
 .heading{
@@ -97,7 +97,7 @@ body{
     box-shadow: 0.1rem 0.1rem 0.6rem ;
     border-radius: 0.3rem;
 }
-.header__img_text-classify:hover::after{
+.header__img_text-classify:hover:after{
     content: ' ';
     display: block;
     position:absolute;

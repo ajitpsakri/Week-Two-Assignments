@@ -5,16 +5,16 @@ body{
     background-color: #F7F7F7;
 } 
 .basic, .only-buttons, .only-icons{
-    width: 36rem;
+    width: 38rem;
     height: 46rem;
 }
 .text-over-media{
-    width: 36rem;
+    width: 38rem;
     height: 40rem;
 
 }
 .header{
-    width: 37.6rem;
+    width: 39rem;
     height: 46.4rem;
 }
 
@@ -24,6 +24,6 @@ body{
     flex-wrap: wrap;
 }
 .horizontal{
-    width: 36rem;
+    width: 38rem;
     height: 17rem;
 }

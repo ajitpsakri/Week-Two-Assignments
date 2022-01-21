@@ -1,0 +1,23 @@
+.card__img-size{
+    height: auto;
+    width: 100%;
+    border-top-right-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+}
+.main{
+    height: 37.7rem;
+}
+.non-image{
+    height: 9rem;
+    position: relative;
+    bottom: 9rem;
+}
+.caption{
+    margin-bottom: 4.8rem;
+}
+.heading, .caption{
+    color: white;
+}
+.header__img_text-classify:hover::after, .non-image:hover::after{
+    height: 32.2rem;
+}

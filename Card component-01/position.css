@@ -1,0 +1,16 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #F7F7F7;
+} 
+.basic{
+    width: 36rem;
+    height: 46rem;
+}
+.text-over-media{
+    width: 36rem;
+    height: 40rem;
+    position: relative;
+    bottom: 6rem;
+}

@@ -1,0 +1,71 @@
+/* || GENERAL STYLES */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary:#454545;
+    --secondary:#AFAFAF;
+    --third:#924AA2;
+    --after-variable:var(--secondary)
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #303030;
+}
+/* || UTILITIES */
+/* || SITEWIDE */
+.chips-autocomplete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid var(--primary);
+    width: 92.1rem;
+    height: 21.1rem;
+}
+.heading{
+    position: absolute;
+    color: var(--secondary);
+    font-size: 1.6rem;
+    font-weight: 400;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+.input-favoirite-fruits{
+    position: relative;
+    width: 86.1rem;
+    height: 6.5rem;
+    background-color: var(--primary);
+    border: 0;
+    left: 3.2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.7rem;
+    color: var(--secondary);
+}
+
+.input-favoirite-fruits:focus{
+    border-color: 0.01rem solid var(--primary);
+    outline: none !important;
+}
+.input-favoirite-fruits:focus::placeholder{
+    color: var(--third);
+    position: absolute;
+    font-size: 1.1rem;
+    top:0.4rem;
+    transition: 250ms;
+}
+.input-favoirite-fruits::placeholder{
+    transition: 250ms;
+}
+.chips-autocomplete::after{
+    content: " ";
+    border: 0.1rem solid var(--after-variable);
+    background-color: var(--after-variable);
+    position: relative;
+    width: 86.1rem;
+    left: 3.2rem;
+}

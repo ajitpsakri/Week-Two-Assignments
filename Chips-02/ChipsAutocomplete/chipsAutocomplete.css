@@ -8,7 +8,8 @@
     --primary:#454545;
     --secondary:#AFAFAF;
     --third:#924AA2;
-    --after-variable:var(--secondary)
+    --after-variable:var(--secondary);
+    --fourth:#747474;
 }
 html{
     font-size: 62.5%;
@@ -16,15 +17,22 @@ html{
 body{
     background-color: #303030;
 }
+main{
+    display: flex;
+    width: 93.4rem;
+}
 /* || UTILITIES */
 /* || SITEWIDE */
+
 .chips-autocomplete{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid var(--primary);
-    width: 92.1rem;
-    height: 21.1rem;
+    align-items: flex-start;
+    border: 0.1rem solid var(--primary);
+    flex-basis:0;
+    min-height: 21.1rem;
+    flex-grow: 1;
 }
 .heading{
     position: absolute;
@@ -45,8 +53,8 @@ body{
 .chips-input-display{
     display: flex;
     position: relative;
-    width: 86.1rem;
-    height: 6.5rem;
+    width: 93.7%;
+    min-height: 6.5rem;
     background-color: var(--primary);
     border: 0;
     left: 3.2rem;
@@ -64,19 +72,36 @@ body{
     border: 0.1rem solid var(--after-variable);
     background-color: var(--after-variable);
     position: relative;
-    width: 85.9rem;
+    width: 93.3%;
     left: 3.2rem;
 } 
 .input-favoirite-fruits:focus::placeholder{
     color: var(--third);
     position: absolute;
     font-size: 1rem;
-    /* top:0.1rem; */
     transition: 250ms;
 }
 .input-favoirite-fruits::placeholder{
     transition: 250ms;
 } 
-/* .chips-items li{
-
-} */
+.chip-items{
+    list-style: none;
+    display: flex;
+}
+.chip-items li{
+    display: flex;
+    position: relative;
+    top: 2.2rem;
+    margin: 0 0.5rem;
+    border: 0.1rem solid var(--fourth);
+    border-radius: 2rem;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    padding: 0.1rem 1rem;
+    background-color: var(--fourth);
+    cursor: pointer;
+}
+.chip-items li i{
+    padding-left: 1rem;
+}

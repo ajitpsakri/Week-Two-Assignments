@@ -3,7 +3,6 @@ const inputContainer = document.querySelector(".chips-autocomplete");
 const input = document.querySelector(".input-favoirite-fruits");
 const unorderedChipList = document.querySelector(".chip-items");
 let chipsExist = false;
-
 // || Utility function
 const createLiElement = () => {
     let list = document.createElement('li')

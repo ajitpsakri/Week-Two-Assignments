@@ -1,0 +1,12 @@
+body{
+    background-color: #303030;
+}
+iframe{
+    width: 100%;
+    min-height: 10rem;
+    margin-top: 1rem;
+}
+
+.stacked-chips{
+    height: 15rem;
+}

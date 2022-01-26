@@ -11,12 +11,13 @@
     --after-variable:var(--secondary);
     --fourth:#747474;
     --green:#80F1BB;
+    --background-color:#303030;
 }
 html{
     font-size: 62.5%;
 }
 body{
-    background-color: #303030;
+    background-color: var(--background-color);
 }
 main{
     display: flex;
@@ -31,6 +32,8 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 0.1rem 0.1rem 0.5rem ;
+    border-radius: 0.7rem;
     align-items: flex-start;
     border: 0.1rem solid var(--primary);
     flex-basis:0;

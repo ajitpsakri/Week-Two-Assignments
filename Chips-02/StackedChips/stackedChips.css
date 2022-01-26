@@ -22,6 +22,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 33%; 
+    margin: auto;
 }
 /* || UTILITIES */
 /* || SITEWIDE */
@@ -42,7 +43,7 @@ main{
     margin-bottom: 3rem;
 }
 .heading{
-    position: absolute;
+    position: relative;
     color: var(--secondary);
     font-size: 1.6rem;
     font-weight: 400;

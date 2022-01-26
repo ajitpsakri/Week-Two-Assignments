@@ -10,6 +10,7 @@
     --third:#924AA2;
     --after-variable:var(--secondary);
     --fourth:#747474;
+    --green:#80F1BB;
 }
 html{
     font-size: 62.5%;
@@ -20,7 +21,7 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    width: 93.4rem; 
+    width: 45rem; 
 }
 /* || UTILITIES */
 /* || SITEWIDE */
@@ -48,55 +49,29 @@ main{
     top: 1.5rem;
     left: 1.5rem;
 }
-.input-favoirite-fruits{
-    display: flex;
-    position: relative;
-    bottom:0.5rem;
-    width: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: var(--primary);
-    border: 0;
-    font-size: 1.7rem;
-    color: var(--secondary);
-    margin-top: 3rem;
-}
+
 .chips-input-display{
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    width: 93.7%;
+    width: 100%;
     min-height: 6.5rem;
     background-color: var(--primary);
     border: 0;
-    left: 3.2rem;
     padding-left: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     font-size: 1.7rem;
     color: var(--secondary);
 }
-.input-favoirite-fruits:focus{
-    border-color: 0.01rem solid var(--primary);
-    outline: none !important;
-}
+
 .chips-autocomplete::after{
     content: " ";
     border: 0.1rem solid var(--after-variable);
     background-color: var(--after-variable);
     position: relative;
-    width: 93.3%;
-    left: 3.2rem;
+    width: 100%;
 } 
-.input-favoirite-fruits:focus::placeholder{
-    color: var(--third);
-    position: absolute;
-    font-size: 1rem;
-    transition: 250ms;
-    margin: 0.5rem 0rem;
-}
-.input-favoirite-fruits::placeholder{
-    transition: 250ms;
-} 
+
 .chip-items{
     list-style: none;
     display: flex;
@@ -107,15 +82,24 @@ main{
     position: relative;
     top: 2.2rem;
     margin: 0.15rem  0.5rem;
-    border: 0.1rem solid var(--fourth);
     border-radius: 2rem;
     height: fit-content;
     width: fit-content;
-    color: white;
     padding: 0.1rem 1rem;
-    background-color: var(--fourth);
     cursor: pointer;
 }
-.chip-items li i{
-    padding-left: 1rem;
+.grey{
+    background-color: var(--fourth);
+    border: 0.1rem solid var(--fourth);
+    color: white;
+}
+.voilet{
+    background-color: var(--third);
+    border: 0.1rem solid var(--third);
+    color: white;
+}
+.green{
+    background-color: var(--green);
+    border: 0.1rem solid var(--green);
+    color: black;
 }

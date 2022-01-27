@@ -1,0 +1,24 @@
+:root{
+    --background-color:#F2F2F2;
+    --primary:#6C64EE;
+    --primary-shade:#D9C2FB;
+    --primary-text-color:#7C66F1;
+    --secondary:#666666;
+}
+body{
+    background-color:var(--background-color);
+}
+.frameset{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.basic-drawer{
+    width: 16.7rem;
+    height: 20rem;
+}
+.permanenet-drawer{
+    width: 50rem;
+    height: 20rem;
+}

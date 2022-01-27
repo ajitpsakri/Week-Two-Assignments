@@ -20,8 +20,8 @@ body{
 }
 main{
     background-color: white;
-    width: 20%;
-    margin: auto;
+    width: 25rem;
+    /* margin: auto; */
 }
 i{
     color: var(--secondary);

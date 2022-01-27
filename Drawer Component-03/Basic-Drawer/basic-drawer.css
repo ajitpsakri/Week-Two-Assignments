@@ -22,13 +22,13 @@ main{
     background-color: white;
     width: 20%;
     margin: auto;
-    /* margin-top: 1rem; */
 }
 i{
     color: var(--secondary);
+    margin-right: 15%;
 }
 h2{
-    font-size: 200%;
+    font-size: 300%;
 }
 /* || Utilities */
 .row{
@@ -36,12 +36,16 @@ h2{
     margin-top: 0.8rem;
     margin-bottom: 0.3rem;
     cursor: pointer;
+    padding: 3% 7%;
 }
 .grey{
     color: var(--secondary);
 }
 .basic-fz{
-    font-size: 140%;
+    font-size: 200%;
+}
+.basic-padding{
+    padding: 7%;
 }
 /* || Site Specific */
 .label-drawer{
@@ -60,6 +64,4 @@ h2{
 
 
 
-/* [ ] Font size */
-/* [ ] populate component */
 /* [ ] padding between icon and text */

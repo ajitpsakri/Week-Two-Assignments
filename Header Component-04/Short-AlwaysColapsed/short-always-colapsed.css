@@ -1,0 +1,12 @@
+.header{
+    position: fixed;
+    z-index: 1;
+    border-bottom-right-radius: 2rem;
+}
+.content{
+    position: relative;
+    top: 5rem;
+}
+main{
+    height: 150vh;
+}

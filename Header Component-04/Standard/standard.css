@@ -1,0 +1,38 @@
+:root{
+    --primary:#6C64EE;
+}
+/* || General HTML  */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 200%;
+}
+/* || Utilities  */
+.pd-normal{
+    padding: 0rem 1rem;
+}
+/* || site specific styles  */
+.header{
+    background-color: var(--primary);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+.aside{
+    display: flex;
+    align-items: center;
+}
+.actionables{
+    display: flex;
+}
+.content{
+    font-size: 80%;
+}

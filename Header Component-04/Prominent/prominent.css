@@ -1,0 +1,7 @@
+.header{
+    height: 12rem;
+    align-items: flex-start;
+}
+.heading{
+    align-self: flex-end;
+}

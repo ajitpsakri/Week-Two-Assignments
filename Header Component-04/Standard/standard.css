@@ -28,7 +28,7 @@ body{
 }
 .aside{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 .actionables{
     display: flex;
